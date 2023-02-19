@@ -1,0 +1,20 @@
+.maininfocontainer {
+  background-color: rgb(88, 88, 165);
+  width: 70%;
+  height: 80%;
+  border-radius: 0.9rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.maininfocontainer > h3{
+    font-size: 2rem;
+}
+.meterinfo,.percentinfo{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
